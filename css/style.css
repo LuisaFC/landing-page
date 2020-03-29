@@ -10,17 +10,25 @@
     font-family: "Open-sans";
 }
 
+.clear{
+    clear: both;
+}
+
+
 html, body{
     height: 100%;
 }
+
 
 /*Classe global que será reutilizada diversas vezes*/
 .center{
     width: 1440px;
     margin: 0, auto;
+    padding: 0 2%;
 }
 
 .header{
+    min-width: 1440px;
     width: 100%;
     height: 60px;
     background: #212343;
@@ -31,6 +39,7 @@ html, body{
 }
 
 .container-banner{
+    min-width: 1440px;
     width: 100%;
     height: 557px;
     background: url('../img/header_bg.png');
@@ -60,6 +69,7 @@ html, body{
     font-weight: normal;
     color: #999999;
     font-size: 21px;
+    text-align: center;
 }
 
 .input-container{
@@ -131,6 +141,8 @@ html, body{
 }
 
 .content{
+    min-width: 1440px;
+    width: 100%;
     padding: 40px 0;
     background: #ddd;
     text-align: center;
@@ -157,4 +169,46 @@ html, body{
     height: 40px;
     background-image: url('../img/arrow.png');
     background-size: 100% 100%;
+}
+
+.section{
+    padding: 90px 0;
+}
+
+.section h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.333%;
+    padding: 30px;
+}
+
+.container-single p{
+    display: inline-block;
+    text-align: justify;
+    padding: 10px 25px;
+}
+
+.container-single img{
+    width: 70px;
+}
+
+.footer{
+    border-top: 2px solid #888888;
+    padding-top: 70px;
+    text-align: center;
+    color: #888888;
+}
+
+.footer p{
+    margin-top: 10px;
 }
